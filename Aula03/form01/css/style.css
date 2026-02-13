@@ -1,0 +1,19 @@
+.search-box {
+    display: flex; /*alinha o input e o botão lado a lado*/
+    max-width: 25vw; 
+    border: 1px solid #333;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.search-box input {
+    flex: 1; 
+    border: none; 
+    padding: 10px 15px;
+}
+.search-box button {
+    background: #666; 
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+}
